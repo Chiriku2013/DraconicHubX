@@ -1,5 +1,5 @@
 -- Script by Chiriku Roblox
--- Draconic Hub X by Lightingware deof LuckyDragon99
+-- Draconic Hub X by Lightingware copy by LuckyDragon910
 
 -- Kiểm tra world
 local placeId = game.PlaceId
