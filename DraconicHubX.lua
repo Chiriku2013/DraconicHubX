@@ -1,3 +1,6 @@
+-- Script by Chiriku Roblox
+-- Draconic Hub X by Lightingware
+
 -- Kiểm tra world
 local placeId = game.PlaceId
 local worldMap = {
