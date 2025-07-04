@@ -14,3 +14,6 @@ if worldMap[placeId] then
 task.spawn(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/UiLoading/refs/heads/main/UiLoading.lua"))()
     end)
+else
+    game.Players.LocalPlayer:Kick("This script is not supported in this game, please try again with Evade!")
+end
