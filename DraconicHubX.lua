@@ -20,6 +20,10 @@ task.spawn(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/UiLoading/refs/heads/main/UiLoading.lua"))()
     end)
 
+-- Đợi UiLoading Load Full
+    repeat task.wait()until
+    _G.LoadingDone
+
 -- Load Draconic Hub X
 task.spawn(function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/kasra50/Idk/refs/heads/main/I%20mean%20nobody%20can%20stop%20me.txt'))()
