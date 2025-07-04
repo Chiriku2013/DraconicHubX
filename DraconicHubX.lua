@@ -1,5 +1,5 @@
 -- Script by Chiriku Roblox
--- Draconic Hub X by Lightingware
+-- Draconic Hub X by Lightingware deof LuckyDragon99
 
 -- Kiểm tra world
 local placeId = game.PlaceId
@@ -14,8 +14,8 @@ if worldMap[placeId] then
     end
 
 -- Set UI title/logo/credit - UiLoading
-    getgenv().TitleScript = "Loading Script Kaitun..."
-    getgenv().LogoScript = "rbxassetid://119836305527028"
+    getgenv().TitleScript = "Loading Draconic Hub X..."
+    getgenv().LogoScript = "rbxassetid://100301673113434"
     getgenv().CreditScript = "By: Chiriku Roblox"
 
 -- Load UiLoading
